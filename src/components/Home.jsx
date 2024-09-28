@@ -12,8 +12,8 @@ const Home = () => {
   };
   return (
     <>
-      <div className="flex ml-40">
-      <h2>Home</h2>
+      <div className="flex-col ml-40 ">
+      <h2 className="text-red-950 ">Home</h2>
       <button onClick={handleLogout} className="btn btn-error">
         Logout
       </button>
